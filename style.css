@@ -1,0 +1,190 @@
+/* Importando fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Estiliza o botão */
+.topo-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.topo-btn:hover {
+  background-color: #555;
+}
+
+
+header h1 {
+    margin-bottom: 0px;
+}
+
+.centralizado {
+    text-align: center;
+  }
+
+.centralizado2 {
+    text-align: center;
+  }
+
+.centralizado3 {
+    text-align: center;
+  }
+
+  
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #004d40;
+}
+
+/* Seções */
+section {
+    margin: 30px auto;
+    padding: 40px;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #00796b;
+    text-align: center;
+}
+
+section ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+/* Tabelas */
+section table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section table th, section table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+section table th {
+    background: #00796b;
+    color: white;
+}
+
+  /* Login */
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px;
+    background-color: 	#F0F8FF;
+  }
+  
+  .login-section form {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  .login-section h2 {
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  
+  .login-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-section button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .welcome {
+    margin-left: 50px;
+    font-size: 32px;
+    color: #00796b;
+  }
+
+  /* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background: #00796b;
+    color: white;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+  
